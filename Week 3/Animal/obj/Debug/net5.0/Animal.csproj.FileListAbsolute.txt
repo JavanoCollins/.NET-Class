@@ -1,0 +1,16 @@
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.exe
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.deps.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.runtimeconfig.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.runtimeconfig.dev.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\ref\Animal.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\bin\Debug\net5.0\Animal.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.csprojAssemblyReference.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.AssemblyInfoInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.AssemblyInfo.cs
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.csproj.CoreCompileInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\ref\Animal.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 3\Animal\obj\Debug\net5.0\Animal.genruntimeconfig.cache

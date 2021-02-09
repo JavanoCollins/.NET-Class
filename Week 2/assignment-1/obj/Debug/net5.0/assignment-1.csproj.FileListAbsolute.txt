@@ -1,0 +1,16 @@
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.exe
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.deps.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.runtimeconfig.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.runtimeconfig.dev.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\ref\assignment-1.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\bin\Debug\net5.0\assignment-1.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.csprojAssemblyReference.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.AssemblyInfoInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.AssemblyInfo.cs
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.csproj.CoreCompileInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\ref\assignment-1.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 2\assignment-1\obj\Debug\net5.0\assignment-1.genruntimeconfig.cache
