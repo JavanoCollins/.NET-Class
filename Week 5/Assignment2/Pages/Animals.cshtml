@@ -1,0 +1,23 @@
+﻿@page
+@model Assignment2.Pages.AnimalsModel
+@{
+    ViewData["Title"] = "Animals";
+}
+
+<h1 class="p-3">Amazing Animals</h1>
+<p class="px-3">Animals can be found all over the world.</p>
+
+<div class="card-columns">
+
+    @foreach (var animal in Model.Animals)
+    {
+        <div class="card" style="height: 450px">
+            <div class="card-body">
+                <h2 class="card-title">@animal.Name</h2>
+                <p>@animal.ScientificName</p>
+                <p>(@animal.Type)</p>
+                <img src="@animal.Image" style="width: 250px" alt="@animal.Name @animal.ScientificName "/>
+            </div>
+        </div> 
+    }
+</div>

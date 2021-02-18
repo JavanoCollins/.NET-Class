@@ -1,0 +1,23 @@
+﻿@page
+@model Books2021.Pages.BooklistModel
+@{
+    ViewData["Title"] = "All Books";
+}
+
+<h1 class="p-3">All Books</h1>
+
+<div class="card-columns">
+
+@foreach (var book in Model.Books)
+{
+    <div class="card" style="height: 350px">
+        <div class="card-body">
+            <h2 class="card-title">@book.Title</h2>
+            <h3>@book.Author</h3>
+            <p>@book.Year</p>
+            <p>@book.Language</p>
+            <p>@book.Pages</p>
+        </div>
+    </div>
+}
+</div>

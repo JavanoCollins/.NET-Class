@@ -41,3 +41,4 @@ C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Developme
 C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 4\Books2021\bin\Debug\net5.0\Microsoft.VisualStudio.Web.BrowserLink.dll
 C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 4\Books2021\obj\Debug\net5.0\Razor\Pages\FavoriteBooks.cshtml.g.cs
 C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 4\Books2021\obj\Debug\net5.0\Razor\Pages\Tbr.cshtml.g.cs
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 4\Books2021\obj\Debug\net5.0\Razor\Pages\Booklist.cshtml.g.cs

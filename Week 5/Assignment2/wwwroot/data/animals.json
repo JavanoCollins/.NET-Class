@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aardvark",
+    "scientificname": "Orycteropus afer",
+    "type": "Mammal",
+    "diet": "Insectivore",
+    "image": "images/aardvark.png"
+  },
+  {
+    "name": "African elephant",
+    "scientificname": "Loxodonta africana",
+    "type": "Mammal",
+    "diet": "Herbivore",
+    "image": "images/africanelephant.png"
+  },
+  {
+    "name": "Beluga whale",
+    "scientificname": "Delphinapterus leucas",
+    "type": "Mammal",
+    "diet": "Carnivore",
+    "image": "images/belugawhale.png"
+},
+  {
+    "name": "King cobra",
+    "scientificname": "Ophiophagus hannah",
+    "type": "Reptile",
+    "diet": "Carnivore",
+    "image": "images/kingcobra.png"  
+},
+  {
+    "name": "Red-eyed tree frog",
+    "scientificname": "Agalychnis callidryas",
+    "type": "Amphibian",
+    "diet": "Carnivore",
+    "image": "images/treefrog.png"  
+},
+{
+        "name": "Giant panda",
+        "scientificname": "Ailuropoda melanoleuca",
+        "type": "Mammal",
+        "diet": "Omnivore",
+        "image": "images/giantpanda.png"
+}
+]
