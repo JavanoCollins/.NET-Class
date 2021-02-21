@@ -1,0 +1,41 @@
+﻿@page
+@model Dinosaurs_Midterm_.Pages.ListModel
+@{
+    ViewData["Title"] = "List of Dinosaurs";
+}
+
+<div class="container">
+    <header class="primary_header">
+        <h1 class="title">Dinosaurs</h1>
+    </header>
+
+    <div class="full_article">
+        <h3 style="margin-bottom: 5%">List of Dinosaurs</h3>
+
+        <table id="fulllist" style="width:80%;">
+            <tr>
+                <th>Name</th>
+                <th>Pronounced</th>
+                <th>Meaning</th>
+                <th>Class</th>
+                <th>Period</th>
+            </tr>
+        @foreach (var dino in Model.Dinosaurs)
+        {
+            <tr>
+                <td>@dino.Name</td>
+                <td>@dino.Pronounced</td>
+                <td>@dino.Meaning</td>
+                <td>@dino.Class</td>
+                <td>@dino.Period</td>
+            </tr>
+        }
+        </table>
+    </div>
+
+    <footer>
+        <div class="p-3 copyright">
+            &copy; 2021 - Text and image from www.kidsdinos.com for .NET Web Development.
+        </div>
+    </footer>
+</div>

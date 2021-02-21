@@ -1,0 +1,20 @@
+﻿@page
+@model Lab6a.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Home</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Name)
+            </th>
+        </tr>
+    </thead>
+</table>

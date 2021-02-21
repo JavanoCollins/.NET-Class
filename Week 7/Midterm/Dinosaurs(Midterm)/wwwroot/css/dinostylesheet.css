@@ -1,0 +1,313 @@
+﻿@charset "UTF-8";
+
+/*
+orange #F87024
+blue #01A3A6
+green #84B933
+red #EF5561
+dark green #45924E
+yellow #FEC504
+background #FFF3CD
+
+*/
+
+/* Styles for page in computer viewport */
+
+body
+{
+	background-image: url("dinolayout/bg-dinos.jpg");
+	background-color: #FFF3CD;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.container 
+{
+	background-color: #FFFFFF;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border-left: 5px double #45924E; /* Dark green colour from background */
+	border-right: 5px double #45924E;
+}
+
+.row
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+
+/* Header styles */
+.title 
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+
+.primary_header 
+{
+	width: 100%;
+	background-color: #45924E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+}
+
+/* Navigation bar styles */
+
+.secondary_header 
+{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #FEC504;
+	clear: left;
+}
+.container .secondary_header ul 
+{
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li 
+{
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+}
+.secondary_header ul li:hover 
+{
+	color: #717070;
+	cursor: pointer;
+}
+
+#menu li a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#menu li a:hover
+{
+	color: #01A3A6;
+}
+
+/* Styles for the pages that use a single column */
+.full_article 
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #45924E;
+	padding-bottom: 15px;
+}
+.container .full_article h3 
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #01A3A6; /* Blue colour from background */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container .full_article h2 
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #01A3A6; /* Blue colour from background */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container .full_article p 
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #45924E;
+}
+
+.container .full_article .subheading 
+{
+	color: #84B933;
+	font-style: italic;
+}
+
+.container .full_article a:link 
+{
+	color: #EF5561; /* Red dinosaur colour from background */
+	text-decoration: none;
+}
+
+.container .full_article a:hover 
+{
+	color: #F87024; /* Red dinosaur colour from background */
+	text-decoration: underline;
+	
+}
+
+.container .full_article a:visited 
+{
+	color: #F87024; /* Red dinosaur colour from background */
+}
+
+.container .full_article li {
+	padding-left: 60px;
+	color: #EF5561;
+	list-style: none;
+}
+
+li {
+	color: red;
+}
+
+.imgintextleft
+{
+	padding-left: 40px;
+	padding-right: 20px;
+	float: left;
+}
+
+.imgintextright
+{
+	padding-left: 20px;
+	padding-right: 40px;
+	float: right;
+}
+/*.placeholder 
+{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 100%;
+}
+*/
+
+
+/* Footer styles */
+.copyright 
+{
+	text-align: center;
+	background-color: #FEC504;
+	color: #FFFFFF;
+	font-size: 13px;
+	border: 2px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size:1.2rem;
+}
+
+/* Styles for three-column section on individual dinosaur page */
+
+.infopic
+{
+	width: 400px;
+	float: left;
+	margin: 20px;
+}
+	
+.infotable
+{
+	width: 500px;
+	float: left;
+
+}
+
+.infotable td
+{
+	padding: 5px;
+}
+
+/* Styles for complete list of dinosaurs page */
+
+#fulllist
+{
+	margin-left: 5%;
+}
+
+#fulllist th
+{
+	text-align: left;
+	border-bottom: 1px solid #FEC504;
+	color: #FEC504;
+}
+
+#fulllist td
+{
+	border-bottom: 1px solid #FEC504;
+	padding: 5px;
+}
+
+table {
+	padding: 300px;
+}
+
+#extralinks
+{
+	clear: left;
+	padding-top: 20px;
+}
+	
+.threecol
+{
+	width: 28%;
+	float: left;
+	margin-left: 40px;
+	border: 2px dashed #F87024;
+	border-radius: 10px;
+}
+
+/* Styles for flexbox photogrid */
+
+.grid
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.griditem
+{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
