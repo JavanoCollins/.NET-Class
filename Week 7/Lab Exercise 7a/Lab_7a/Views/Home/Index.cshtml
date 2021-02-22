@@ -1,0 +1,18 @@
+﻿@model Lab_7a.Models.Cat
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <h3>Name: @Model.Name</h3>
+    <p>Type: @Model.Type</p>
+    <p>DOB: @Model.DOB.ToLongDateString()</p>
+</body>
+</html>
