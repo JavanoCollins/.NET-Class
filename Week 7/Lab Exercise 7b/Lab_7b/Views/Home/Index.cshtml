@@ -1,0 +1,53 @@
+﻿@model Lab_7b.Models.Coin
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <div class="container" style="text-align: center">
+
+        <h1>Heads or Tails</h1>
+        <p>Tossing Coin...</p>
+
+        @{
+            Random rnd = new Random();
+
+            int headsWin = Model.ScoreOne;
+            int tailsWin = Model.ScoreTwo;
+            int i = 0;
+
+            while (i < 10)
+            {
+                // Toss coin
+                //Generates random number between 1 and 2.
+                int coinToss = rnd.Next(0, 2);
+
+                // Display heads if coinToss is equal to 0.
+                // Display tails if coinToss is equal to 1.
+                if (coinToss == 0)
+                {
+                    <img src="/images/heads.png" width="150" />
+                    headsWin++;
+                }
+                else
+                {
+                    <img src="/images/tails.png" width="150" />
+                    tailsWin++;
+                }
+                i++;
+            }
+
+
+            <p>Heads won the toss: @headsWin Times</p>
+            <p>Tails won the toss: @tailsWin Times</p>
+        }
+    </div>
+</body>
+</html>

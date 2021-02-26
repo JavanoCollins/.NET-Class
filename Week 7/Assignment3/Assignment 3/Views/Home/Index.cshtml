@@ -1,0 +1,121 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <div class="container" style="text-align: center">
+
+        <h1>Dice Game</h1>
+        <p>Rolling Dice...</p>
+
+        @{
+            // Iterator
+            int i = 0;
+
+            Random rnd = new Random();
+
+            int evenWins = 0;
+            int oddWins = 0;
+
+            while (i < 5)
+            {
+
+                // Roll the dice
+                int dice1 = rnd.Next(1, 7);
+                int dice2 = rnd.Next(1, 7);
+
+                // Dice total
+                int diceTotal = dice1 + dice2;
+
+                <div>
+                    @{
+                        switch (dice1)
+                        {
+                            case 1:
+                                <img src="~/images/dice-1.png" width="100" />
+                                break;
+                            case 2:
+                                <img src="~/images/dice-2.png" width="100" />
+                                break;
+                            case 3:
+                                <img src="~/images/dice-3.png" width="100" />
+                                break;
+                            case 4:
+                                <img src="~/images/dice-4.png" width="100" />
+                                break;
+                            case 5:
+                                <img src="~/images/dice-5.png" width="100" />
+                                break;
+                            case 6:
+                                <img src="~/images/dice-6.png" width="100" />
+                                break;
+                            case 7:
+                                <img src="~/images/dice-7.png" width="100" />
+                                break;
+                        }
+
+                        switch (dice2)
+                        {
+                            case 1:
+                                <img src="~/images/dice-1.png" width="100" />
+                                break;
+                            case 2:
+                                <img src="~/images/dice-2.png" width="100" />
+                                break;
+                            case 3:
+                                <img src="~/images/dice-3.png" width="100" />
+                                break;
+                            case 4:
+                                <img src="~/images/dice-4.png" width="100" />
+                                break;
+                            case 5:
+                                <img src="~/images/dice-5.png" width="100" />
+                                break;
+                            case 6:
+                                <img src="~/images/dice-6.png" width="100" />
+                                break;
+                            case 7:
+                                <img src="~/images/dice-7.png" width="100" />
+                                break;
+                        }
+
+                        if (diceTotal % 2 == 0)
+                        {
+                            evenWins++;
+                        }
+                        else
+                        {
+                            oddWins++;
+                        }
+                    }
+
+                </div>
+                i++;
+            }
+
+            <p>Even Rolls: @evenWins</p>
+            <p>Odd Rolls: @oddWins</p>
+
+            if (evenWins >= 3)
+            {
+                <div>
+                    <p>You Won!</p>
+                </div>
+            }
+            else
+            {
+                <div>
+                    <p>You Lost!</p>
+                </div>
+            }
+        }
+    </div>
+</body>
+</html>
