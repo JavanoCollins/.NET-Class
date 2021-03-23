@@ -1,0 +1,13 @@
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.exe
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.deps.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.runtimeconfig.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.runtimeconfig.dev.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\bin\Debug\netcoreapp3.1\LabExercise9b.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.csprojAssemblyReference.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.AssemblyInfoInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.AssemblyInfo.cs
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.csproj.CoreCompileInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 9\LabExercise9b\obj\Debug\netcoreapp3.1\LabExercise9b.genruntimeconfig.cache

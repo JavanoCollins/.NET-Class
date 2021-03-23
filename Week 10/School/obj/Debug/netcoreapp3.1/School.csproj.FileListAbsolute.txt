@@ -1,0 +1,13 @@
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.exe
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.deps.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.runtimeconfig.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.runtimeconfig.dev.json
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\bin\Debug\netcoreapp3.1\School.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.csprojAssemblyReference.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.AssemblyInfoInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.AssemblyInfo.cs
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.csproj.CoreCompileInputs.cache
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.dll
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.pdb
+C:\Users\jdcol\Google Drive\School\Semester 7 (21SP - Spring 2021)\Web Development .NET\Week 10\School\obj\Debug\netcoreapp3.1\School.genruntimeconfig.cache

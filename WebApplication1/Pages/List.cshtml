@@ -1,0 +1,30 @@
+﻿@page
+@model WebApplication1.Pages.List.ListModel
+@{
+}
+
+    <div class="full_article">
+        <h3 style="margin-bottom: 5%">List of Dinosaurs</h3>
+        <table id="fulllist" style="width:80%;">
+            <tr>
+                <th>Name</th>
+                <th>Pronounced</th>
+                <th>Meaning</th>
+                <th>Class</th>
+                <th>Period</th>
+            </tr>
+            @{
+                foreach (var dinosaur in Model.Dinosaurs)
+                {
+                    <tr>
+                        <td>@dinosaur.Name</td>
+                        <td>@dinosaur.Pronounced</td>
+                        <td>@dinosaur.Meaning</td>
+                        <td>@dinosaur.Class</td>
+                        <td>@dinosaur.Period</td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+    

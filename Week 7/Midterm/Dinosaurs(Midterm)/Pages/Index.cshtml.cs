@@ -16,7 +16,6 @@ namespace Dinosaurs_Midterm_.Pages
         {
             _logger = logger;
         }
-
         public void OnGet()
         {
 
