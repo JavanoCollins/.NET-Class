@@ -10,7 +10,7 @@ namespace MVCStudents.Migrations
                 name: "Students",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
+                    StudentID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     First = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Last = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -18,7 +18,7 @@ namespace MVCStudents.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Students", x => x.ID);
+                    table.PrimaryKey("PK_Students", x => x.StudentID);
                 });
         }
 

@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,9 +20,32 @@ namespace MVCStudents.Controllers
         }
 
         // GET: Students
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string SearchString, string LastName)
         {
-            return View(await _context.Students.ToListAsync());
+            IQueryable<string> lastNameQuery = from s in _context.Students orderby s.Last select s.Last;
+
+            // Obtain the students from the database (using LINQ)
+            var students = from d in _context.Students select d;
+
+            // If the search string !empty, return the list
+            // of students whose name contains the search string
+            if(!String.IsNullOrEmpty(SearchString))
+            {
+                students = students.Where(d => d.First.Contains(SearchString) || d.Last.Contains(SearchString));
+            }
+
+            if(!String.IsNullOrEmpty(LastName))
+            {
+                students = students.Where(k => k.Last == LastName);
+            }
+
+            var studentVM = new LastNameViewModel
+            {
+                Names = new SelectList(await lastNameQuery.Distinct().ToListAsync()),
+                Students = await students.ToListAsync()
+            };
+
+            return View(studentVM);
         }
 
         // GET: Students/Details/5
@@ -34,7 +57,7 @@ namespace MVCStudents.Controllers
             }
 
             var student = await _context.Students
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.StudentID == id);
             if (student == null)
             {
                 return NotFound();
@@ -88,7 +111,7 @@ namespace MVCStudents.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("First,Last,Age,ID")] Student student)
         {
-            if (id != student.ID)
+            if (id != student.StudentID)
             {
                 return NotFound();
             }
@@ -102,7 +125,7 @@ namespace MVCStudents.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StudentExists(student.ID))
+                    if (!StudentExists(student.StudentID))
                     {
                         return NotFound();
                     }
@@ -125,7 +148,7 @@ namespace MVCStudents.Controllers
             }
 
             var student = await _context.Students
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.StudentID == id);
             if (student == null)
             {
                 return NotFound();
@@ -147,7 +170,7 @@ namespace MVCStudents.Controllers
 
         private bool StudentExists(int id)
         {
-            return _context.Students.Any(e => e.ID == id);
+            return _context.Students.Any(e => e.StudentID == id);
         }
     }
 }

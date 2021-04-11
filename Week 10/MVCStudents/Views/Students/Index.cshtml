@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MVCStudents.Models.Student>
+﻿@model MVCStudents.Models.LastNameViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -9,23 +9,35 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<select asp-for="LastName" asp-items="Model.Names">
+    <option value="">All</option>
+</select>
+
+Title: <input type="text" asp-for="SearchString" />
+
+<form asp-controller="Students" asp-action="Index">
+    <p>
+        Name: <input type="text" name="toFind"/><input type="submit" value="Search"/>
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.First)
+                @Html.DisplayNameFor(model => model.Students[0].First)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Last)
+                @Html.DisplayNameFor(model => model.Students[0].Last)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Age)
+                @Html.DisplayNameFor(model => model.Students[0].Age)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Students) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.First)
@@ -37,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.Age)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.StudentID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.StudentID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.StudentID">Delete</a>
             </td>
         </tr>
 }

@@ -56,7 +56,7 @@ namespace School
             };
 
             // 1. Students who are under 18 years of age
-            /*var studentCount = (from w in studentList
+            var studentCount = (from w in studentList
                                where w.Age < 18
                                orderby w.Age ascending
                                 select w);
@@ -64,7 +64,7 @@ namespace School
             foreach (var item in studentCount)
             {
                 Console.WriteLine(item.First + " " + item.Age);
-            }*/
+            }
 
             // 2. Students who are teenagers
             /*var studentCount = (from w in studentList
