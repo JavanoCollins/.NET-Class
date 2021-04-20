@@ -22,9 +22,14 @@ namespace Lab11b.Controllers
         // GET: Products
         public async Task<IActionResult> Index(string SearchString, string BookGenre)
         {
-            IQueryable<string> priceQuery = from b in _context.Products orderby b.Genre select b.Genre;
+            IQueryable<string> genreQuery = from b in _context.Products orderby b.Genre select b.Genre;
 
             var books = from b in _context.Products select b;
+
+            if(!string.IsNullOrEmpty(SearchString))
+            {
+                books = books.Where(f => f.Name.Contains(SearchString));
+            }
 
             if (!string.IsNullOrEmpty(BookGenre))
             {
@@ -34,7 +39,7 @@ namespace Lab11b.Controllers
 
             var productPriceVM = new GenreViewModel
             {
-                Genres = new SelectList(await priceQuery.Distinct().ToListAsync()),
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
                 Books = await books.ToListAsync()
             };
 

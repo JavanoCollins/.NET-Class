@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MVCDinos.Models.Class>
+@*@model IEnumerable<MVCDinos.Models.Class>*@
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="py-xl-4">
+    <h1>Classes</h1>
+    <p>Scientists divide dinosaurs into types (which they call "classification" or "classes"</p>
+    <p>These include the following:</p>
+</div>
+@foreach (var item in Model)
+{
+    <div class="py-xl-3">
+        <h3>
+            @Html.DisplayFor(modelItem => item.ClassName)
+        </h3>
+        <h3>
+            (@Html.DisplayFor(modelItem => item.ClassEasyName))
+        </h3>
+        <p>
+            @Html.DisplayFor(modelItem => item.ClassDesc)
+        </p>
+    </div>
+}

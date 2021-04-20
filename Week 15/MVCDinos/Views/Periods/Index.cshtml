@@ -1,0 +1,20 @@
+﻿@model IEnumerable<MVCDinos.Models.Period>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Periods</h1>
+
+<img class="py-xl-5" src="~/images/dinotimeline.png" />
+@foreach (var item in Model)
+{
+    <div class="py-xl-3">
+        <h4>@Html.DisplayFor(modelItem => item.PeriodName)</h4>
+        <p>
+
+            At the start of the Triassic period, 250 million years ago, the Earth was just recovering from the Permian/Triassic Extinction, which witnessed the demise of over two-thirds of all land-dwelling species and a whopping 95 percent of ocean-dwelling species. In terms of animal life, the Triassic was most notable for the diversification of archosaurs into pterosaurs, crocodiles, and the earliest dinosaurs, as well as the evolution of therapsids into the first true mammals.
+        </p>
+    </div>
+}
+

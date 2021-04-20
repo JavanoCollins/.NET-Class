@@ -1,0 +1,59 @@
+﻿@model MVCDinos.Models.DinoViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form asp-controller="Dinosaurs" asp-action="Index">
+    <p>
+        Dinosaur Name: <input type="text" asp-for="SearchString" /><input type="submit" value="Search" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dinosaurs[0].DinosaurName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dinosaurs[0].Pronounced)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dinosaurs[0].NameMeans)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dinosaurs[0].LengthFt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dinosaurs[0].WeightLbs)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Dinosaurs)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DinosaurName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pronounced)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameMeans)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LengthFt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WeightLbs)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.DinosaurID">More Info...</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

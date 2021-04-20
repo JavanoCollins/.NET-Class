@@ -9,9 +9,17 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<select asp-for="BookGenre" asp-items="Model.Genres">
-    <option value="">ALL</option>
-</select>
+
+
+<form asp-controller="Products" asp-action="Index">
+    <select asp-for="BookGenre" asp-items="Model.Genres">
+        <option value="">ALL</option>
+    </select>
+
+    Title: <input type="text" asp-for="SearchString" />
+    <input type="submit" value="Search" />
+
+</form>
 <table class="table">
     <thead>
         <tr>

@@ -1,0 +1,74 @@
+﻿@model MVCDinos.Models.Dinosaur
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Dinosaur</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DinosaurID" />
+            <div class="form-group">
+                <label asp-for="DinosaurName" class="control-label"></label>
+                <input asp-for="DinosaurName" class="form-control" />
+                <span asp-validation-for="DinosaurName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pronounced" class="control-label"></label>
+                <input asp-for="Pronounced" class="form-control" />
+                <span asp-validation-for="Pronounced" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BriefDesc" class="control-label"></label>
+                <input asp-for="BriefDesc" class="form-control" />
+                <span asp-validation-for="BriefDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NameMeans" class="control-label"></label>
+                <input asp-for="NameMeans" class="form-control" />
+                <span asp-validation-for="NameMeans" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LengthFt" class="control-label"></label>
+                <input asp-for="LengthFt" class="form-control" />
+                <span asp-validation-for="LengthFt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WeightLbs" class="control-label"></label>
+                <input asp-for="WeightLbs" class="form-control" />
+                <span asp-validation-for="WeightLbs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LivedYearsAgo" class="control-label"></label>
+                <input asp-for="LivedYearsAgo" class="form-control" />
+                <span asp-validation-for="LivedYearsAgo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClassID" class="control-label"></label>
+                <input asp-for="ClassID" class="form-control" />
+                <span asp-validation-for="ClassID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PeriodID" class="control-label"></label>
+                <input asp-for="PeriodID" class="form-control" />
+                <span asp-validation-for="PeriodID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

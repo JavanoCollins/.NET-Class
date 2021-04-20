@@ -24,11 +24,8 @@ namespace MVCStudents.Controllers
         {
             IQueryable<string> lastNameQuery = from s in _context.Students orderby s.Last select s.Last;
 
-            // Obtain the students from the database (using LINQ)
             var students = from d in _context.Students select d;
 
-            // If the search string !empty, return the list
-            // of students whose name contains the search string
             if(!String.IsNullOrEmpty(SearchString))
             {
                 students = students.Where(d => d.First.Contains(SearchString) || d.Last.Contains(SearchString));

@@ -7477,11 +7477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jdcol\\source\\repos\\Lab11b\\Lab11b.csproj",
+      "projectUniqueName": "C:\\Users\\jdcol\\Google Drive\\School\\Semester 7 (21SP - Spring 2021)\\Web Development .NET\\Week 12\\Lab11b\\Lab11b.csproj",
       "projectName": "Lab11b",
-      "projectPath": "C:\\Users\\jdcol\\source\\repos\\Lab11b\\Lab11b.csproj",
+      "projectPath": "C:\\Users\\jdcol\\Google Drive\\School\\Semester 7 (21SP - Spring 2021)\\Web Development .NET\\Week 12\\Lab11b\\Lab11b.csproj",
       "packagesPath": "C:\\Users\\jdcol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jdcol\\source\\repos\\Lab11b\\obj\\",
+      "outputPath": "C:\\Users\\jdcol\\Google Drive\\School\\Semester 7 (21SP - Spring 2021)\\Web Development .NET\\Week 12\\Lab11b\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jdcol\\AppData\\Roaming\\NuGet\\NuGet.Config",
